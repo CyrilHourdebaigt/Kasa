@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+
+    .maxi-footer {
+        display: block; /* Par défaut, l'image MaxiFooter est affichée */
+        width: 100% !important;
+        margin-top: 30px;
+    }
+
+    .mini-footer {
+        display: none; /* Par défaut, l'image MiniFooter est cachée */
+    }
+}
+
+/* Média query pour les écrans de taille maximale 768px */
+@media screen and (max-width: 768px) {
+    .footer {
+        .maxi-footer {
+            display: none; /* Cacher MaxiFooter sur les petits écrans */
+        }
+
+        .mini-footer {
+            display: block; /* Afficher MiniFooter sur les petits écrans */
+            margin-top: 20px;
+        }
+    }
+}

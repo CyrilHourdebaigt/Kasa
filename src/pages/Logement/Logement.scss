@@ -1,0 +1,230 @@
+.logement-page {
+  margin: 0px 70px 20px 50px !important;
+}
+
+.slideshow img {
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin:  20px 40px 5px 0px;
+    color: #FF6060;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin:  10px 40px 5px 0px;
+}
+  
+  .logement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px !important;
+    width: 100%;
+  }
+  
+  .logement-tags {
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .logement-tag {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6060;
+    color: white;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 10px !important;
+    padding-bottom: 5px !important;
+    height: 25px;
+  }
+  
+  .logement-host {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .host-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .host-name {
+    text-align: right;
+  }
+
+  .host-info p {
+    display: flex;
+    width: 80px;
+    color: #FF6060;
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .host-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+  }
+  
+  .logement-rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: #ff6060;
+    font-size: 34px;
+    width: 36px;
+  }
+
+p {
+    font-size: 18px;
+    
+}
+
+.style-collapse {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 60px;
+}
+
+.collapse ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: -8px;
+  }
+
+  .collapse li {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .logement-page {
+        margin: 0px 20px !important;    
+      }
+  
+      .slideshow {
+        img {
+          width: 100% !important;
+          height: auto; // Laisser l'image s'adapter automatiquement à la hauteur
+          margin: 0px;
+        }
+      }
+  
+      .logement-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        width: 100% !important;
+        margin: 0px!important;
+      }
+
+      h1, h2 {
+        text-align: start;
+        width: 100%;
+        margin: 5px 0px 5px 0px !important;
+      }
+  
+      h1{
+        font-size: 18px;
+        
+      }
+
+      h2 {
+        font-size: 16px;
+        margin-top: 10px !important;
+        margin-bottom: 15px !important;
+      }
+
+      .logement-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 100% !important;
+        height: auto !important;
+        margin: 10px 0px 10px 0px !important;
+        gap: 10px;
+  
+        .logement-tag {
+          width: 100px !important;
+          font-size: 12px;
+          font-weight: 700;
+          margin: 0px !important;
+          padding: 5px !important;
+        }
+      }
+  
+      .logement-host {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+  
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          margin-top: 10px;
+        }
+  
+        .logement-rating {
+          display: flex;
+          width: 30%;
+          margin: 0px;
+  
+          span {
+            font-size: 20px;
+          }
+
+          .host-info p {
+            font-size: 14px !important;
+          }
+        }
+        .host-name p {
+          font-size: 14px;
+        }
+      }
+  
+      .style-collapse {
+        display: inline;
+        width: 100% !important;
+      }
+      
+      .collapse {
+        width: 100% !important;
+        margin-top: 20px !important;
+      }
+
+      .collapse-content {
+        padding: 10px !important;
+      }
+      .collapse ul {
+        margin: 10px 0px;
+      }
+      .collapse li {
+          margin: 0px 10px !important;
+          font-weight: 350;
+          font-size: 15px;
+      }
+    }
+  

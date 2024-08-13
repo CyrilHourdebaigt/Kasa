@@ -1,0 +1,36 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+
+  
+}

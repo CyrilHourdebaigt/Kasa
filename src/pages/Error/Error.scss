@@ -1,0 +1,46 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:  0px 20px;
+}
+
+.error h1 {
+    margin: 0;
+    font-size: 10em;
+    color: #ff5a5f;
+}
+
+.error p {
+    color: #ff5a5f;
+    font-size: 36px;
+    margin: 30px 0px !important;
+}
+
+.error a {
+    color: black;
+    font-weight: bold;
+    margin: 40px 0px !important;
+}
+
+.error a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    .error h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 96px;
+        font-weight: 700;
+        margin-top: 50px !important;
+    }
+    .error p {
+        margin: 60px !important;
+        font-size: 18px;
+    }
+    .error a{
+        margin-top: 30px;
+    }
+}
