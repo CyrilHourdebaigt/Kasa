@@ -14,7 +14,7 @@ const Slideshow = ({ pictures }) => {
   };
 
   if (length === 0) {
-    return null; // Si pas d'images, ne rien afficher
+    return null;
   }
 
   return (
